@@ -1,0 +1,140 @@
+@font-face {
+  font-family: amalfi-coast;
+  src: url(fonts/amalfi-coast.ttf);
+} /*https://www.w3schools.com/css/css3_fonts.asp*/
+@font-face {
+  font-family: latoblack;
+  src: url(fonts/latoblack.ttf);
+}/*https://www.w3schools.com/css/css3_fonts.asp*/
+@font-face {
+  font-family: latoblackitalic;
+  src: url(fonts/latoblackitalic.ttf);
+}/*https://www.w3schools.com/css/css3_fonts.asp*/
+@font-face {
+  font-family: latobold;
+  src: url(fonts/latobold.ttf);
+}/*https://www.w3schools.com/css/css3_fonts.asp*/
+@font-face {
+  font-family: latobolditalic;
+  src: url(fonts/latobolditalic.ttf);
+}/*https://www.w3schools.com/css/css3_fonts.asp*/
+@font-face {
+  font-family: latoitalic;
+  src: url(fonts/latoitalic.ttf);
+}/*https://www.w3schools.com/css/css3_fonts.asp*/
+@font-face {
+  font-family: latolight;
+  src: url(fonts/latolight.ttf);
+}/*https://www.w3schools.com/css/css3_fonts.asp*/
+@font-face {
+  font-family: latolightitalic;
+  src: url(fonts/latolightitalic.ttf);
+}/*https://www.w3schools.com/css/css3_fonts.asp*/
+@font-face {
+  font-family: latolightitalic;
+  src: url(fonts/latolightitalic.ttf);
+}/*https://www.w3schools.com/css/css3_fonts.asp*/
+
+
+p, label, li {
+  font-family: latolight;
+  color: #080f0f;
+}
+
+a {
+    color: #0000EE;
+    font-family: latoitalic;
+}
+
+a label:hover {
+  color: #0000AA;
+}
+
+a {
+  text-decoration: none;
+} /*https://www.w3schools.com/cssref/pr_text_text-decoration.asp*/
+
+h1, h2, h3, h4 {
+  font-family: latolight;
+  color: #080f0f;
+}
+.header {
+  background-color: #eff2c0;
+  padding: 8px 16px;
+  border-top-width: 0rem;
+
+}
+.footer {
+  background-color: #bea57d;
+  padding: 16px 24px;
+  border-top-width: 0rem;
+
+}
+body {
+  background-color: #FFFFFF;
+  font-size: 90%;
+}
+
+.title {
+  font-family: amalfi-coast;
+  color: #bea57d;
+  font-size: 3em;
+}
+.nav {
+  color: #FFFFFF;
+  background-color: #a4bab7;
+  font-family: latothin;
+  padding: 4px 16px;
+}
+
+.submit {
+  color: #FFFFFF;
+  background-color: #a4bab7;
+  font-family: latothin;
+  padding: 4px 16px;
+}
+
+.nav:hover {
+    background-color: #a3aaa6;
+    color: #FFFFFF;
+}
+section {
+  padding-bottom: 2rem;
+  border-top-width: 0.15rem;
+  border-top-style: solid;
+  border-top-color: black;
+} /*lab one's p1-style_guide_template*/
+
+.paymentform {
+  border: 1px solid black;
+  width: 25%;
+}
+.checkoutcart {
+  border: 1px solid black;
+  width: 15%;
+}
+
+.row1, .row2 {
+  border: 1px solid black;
+  width: 100%;
+}
+
+#mainnav {
+  float: right;
+}
+.producthover {
+  opacity: 70%;
+}
+
+.producthover:hover {
+  opacity: 100%;
+}
+
+/*citations
+https://www.w3schools.com/css/css3_fonts.asp
+https://www.w3schools.com/cssref/pr_text_text-decoration.asp
+lab one's p1-style_guide_template
+https://stackoverflow.com/questions/32040635/css-box-around-text-set-box-size
+
+
+*/
