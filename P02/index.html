@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <title>P01 - Style Guide Template</title>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <h1>P01 - Style Guide Template</h1>
+
+      <p>A template you can use to start building out your own style guides with.</p>
+
+
+      <nav>
+        <a href="#interactive_elements">Interactive Elements</a>
+        <a href="#text_elements">Text Elements</a>
+        <a href="#combined_elements">Combined Elements</a>
+        <a href="product_listing.html">Product Listing Template</a>
+        <a href="checkout.html">Checkout Template</a>
+        <a href="#citations">Citations</a>
+      </nav>
+    </header>
+
+
+    <!-- INTERACTIVE ELEMENTS SECTION // -->
+    <section id="interactive_elements">
+      <h2>Interactive Elements</h2>
+
+
+      <section class="element">
+        <h3>In-text link</h3>
+        <p>
+          This is an
+          <a class="in-text-link" href="https://www.google.ca">in-text link</a>
+          that takes you to Google.
+        </p>
+      </section>
+
+
+      <!-- Default Button styling section -->
+      <section class="element">
+        <h3>Navigation Link</h3>
+        <nav>
+          <a class="nav-link" href="#women">WOMENS</a>
+          <a class="nav-link" href="#men">MENS</a>
+          <a class="nav-link" href="#sale">SALE</a>
+        </nav>
+
+        <h4>CSS selector:</h4>
+        <p>.button-nav</p>
+
+        <h4>Sample code:</h4>
+        <code>&lt;a href="#" class="button"&gt;Default Button&lt;/a&gt;</code>
+
+        <h4>Rendered element:</h4>
+        <a class="nav-link" href="#">DEFAULT BUTTON</a>
+      </section>
+
+
+      <section class="element">
+        <h3>Submit/Reset Buttons</h3>
+        <form>
+          <button class="form-button" type="submit" name="Submit">SUBMIT</button>
+          <button class="form-button" type="reset" name="Reset">RESET</button>
+        </form>
+      </section>
+
+
+      <section class="element">
+        <h3>Text Input Field with Label</h3>                        <!--https://html.com/tags/label/-->
+        <form>
+          <input class="label-type-form" type="text" name="search" placeholder="SEARCH">
+        </form>
+      </section>
+
+
+      <section class="element">
+        <h3>Radio Button with Label</h3>                            <!-- https://www.w3schools.com/tags/tag_label.asp -->
+        <form class="size-radio">
+          <input type="radio" id="radioS" name="radioSize" value="small">
+          <label for="radioS">S</label>
+
+          <input type="radio" id="radioM" name="radioSize" value="medium">
+          <label for="radioM">M</label>
+
+          <input type="radio" id="radioL" name="radioSize" value="large">
+          <label for="radioL">L</label>
+        </form>
+      </section>
+
+
+      <section class="element">
+        <h3>Image as a Link</h3>                                                                            <!--https://www.w3schools.com/html/html_images.asp-->
+        <a href="https://tinyurl.com/qpbn3e8">
+          <img class="puffer-img" src="img/puffer.jpg" alt="puffer">
+        </a>
+      </section>
+
+    </section>
+    <!-- // INTERACTIVE ELEMENTS SECTION -->
+
+
+
+    <!-- TEXT ELEMENTS SECTION // -->
+    <section id="text_elements">
+      <h2>Text Elements</h2>
+
+      <section class="element">
+        <h3>Headings</h3>
+        <h2>Heading 1</h2>
+        <h3>Heading 2</h3>
+        <h4>Heading 3</h4>
+        <h5>Heading 4</h5>
+      </section>
+
+      <section class="element">
+        <h3>Paragraphs</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec mauris vitae felis elementum lobortis. Aenean tellus eros, tempus in porttitor quis, varius vitae dui. Phasellus id odio et sapien porta venenatis. Ut eu vulputate justo. Fusce orci mi, bibendum a sollicitudin in, imperdiet et eros. Nullam pretium consectetur augue ut eleifend. Nunc elit sem, hendrerit finibus mattis et, maximus ut nibh. Morbi vel faucibus purus. Quisque a quam fringilla, volutpat justo non, dignissim ante. Mauris vitae quam eget dolor euismod feugiat. Suspendisse sit amet turpis tempus urna hendrerit tristique. Maecenas orci sapien, luctus quis leo ac, feugiat convallis dui.</p>
+      </section>
+
+      <section class="element">
+        <h3>Numbered Lists</h3>
+        <ol>
+          <li>57% Nylon, 43% Polyester | Filling: 100% Polyester</li>
+          <li>Machine wash cold, gentle cycle or dry clean. Do not bleach. Lay flat to dry.</li>
+          <li>Our stylists suggest sizing down a size.</li>
+          <li>Oversized fit. High collar. Side pockets. Zip closure.</li>
+        </ol>
+      </section>
+
+    </section>
+    <!-- // TEXT ELEMENTS SECTION -->
+
+
+
+    <!-- COMBINED ELEMENTS SECTION // -->
+    <section id="combined_elements">
+      <h2>Combined Elements</h2>
+
+      <section class="element">
+        <h3>Main Navigation</h3>
+        <section class="header-class">
+          <h3>MUTED</h3>
+          <nav>
+            <ul>
+              <li><a class="nav-link" href="#women">Women</a></li>
+              <li><a class="nav-link" href="#men">Men</a></li>
+              <li><a class="nav-link" href="#sale">Sale</a></li>
+            </ul>
+          </nav>
+          <a href="#checkout"><img src="img/bag-icon.png" alt="bag"></a>
+        </section>
+      </section>
+
+      <section class="element">
+        <h3>Product List</h3>
+        <section class="product-list">
+          <h6><a href="#">HOME</a> / WOMEN</h6>
+          <div class="container">
+            <div class="block block1">
+              <a href="#puffer"><img src="img/puffer.jpg" alt="puffer"></a>
+              <p>PUFFER JACKET</p>
+              <p>$150</p>
+            </div>
+            <div class="block block2">
+              <a href="#short-coat"><img src="img/short-coat.jpg" alt="short-coat"></a>
+              <p>SHORT COAT</p>
+              <p>$200</p>
+            </div>
+            <div class="block block3">
+              <a href="#jacket"><img src="img/jacket.jpg" alt="jacket"></a>
+              <p>WORK JACKET</p>
+              <p>$120</p>
+            </div>
+            <div class="block block4">
+              <a href="#wool-jacket"><img src="img/wool-jacket.jpg" alt="wool-jacket"></a>
+              <p>WOOL JACKET</p>
+              <p>$200</p>
+            </div>
+            <div class="block block5">
+              <a href="#denim-jacket"><img src="img/denim-jacket.jpg" alt="denim-jacket"></a>
+              <p>DENIM JACKET</p>
+              <p>$140</p>
+            </div>
+            <div class="block block6">
+              <a href="#fleece"><img src="img/fleece.jpg" alt="fleece"></a>
+              <p>FLEECE JACKET</p>
+              <p>$80</p>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="element">
+        <h3>Product/Service Listing</h3>
+        <section class="product-listing">
+          <div class="row">
+            <div class="column">
+              <a href="#puffer">
+                <img src="img/puffer.jpg" alt="puffer">
+              </a>
+            </div>
+            <div class="column">
+              <h3>OVERSIZED DOWN PUFFER JACKET</h3>
+              <h5>$150</h5>
+              <h4>SIZE</h4>
+              <form class="size-radio">
+                <input type="radio" id="radioS1" name="radioSize" value="small">
+                <label for="radioS1">S</label>
+
+                <input type="radio" id="radioM1" name="radioSize" value="medium">
+                <label for="radioM1">M</label>
+
+                <input type="radio" id="radioL1" name="radioSize" value="large">
+                <label for="radioL1">L</label>
+              </form>
+              <button class="cart-button" type="button" name="add-to-cart">ADD TO CART</button>
+              <hr>
+              <h4>DESCRIPTION</h4>
+              <p>Padded, boxy jacket in woven fabric. Stand-up collar, zip at front, and side pockets. Elasticized drawstring at hem. Lined.</p>
+              <h4>DETAILS AND CARE</h4>
+              <ol>
+                <li>57% Nylon, 43% Polyester | Filling: 100% Polyester</li>
+                <li>Machine wash cold, gentle cycle or dry clean. Do not bleach. Lay flat to dry.</li>
+                <li>Our stylists suggest sizing down a size.</li>
+                <li>Oversized fit. High collar. Side pockets. Zip closure.</li>
+              </ol>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="element">
+        <h3>Payment Form</h3>
+        <form>
+          <input class="label-type-form" type="text" name="firstName" placeholder="FIRST NAME">
+          <input class="label-type-form" type="text" name="lastName" placeholder="LAST NAME">
+          <input class="label-type-form" type="text" name="address" placeholder="ADDRESS">
+          <input class="label-type-form" type="text" name="city" placeholder="CITY">
+          <input class="label-type-form" type="text" name="country" placeholder="COUNTRY">
+          <input class="label-type-form" type="text" name="postalCode" placeholder="POSTAL CODE"><br>
+          <button class="form-button" type="submit" name="Submit">SUBMIT</button>
+          <button class="form-button" type="reset" name="Reset">RESET</button>
+        </form>
+
+      </section>
+
+      <section class="element">
+        <h3>Checkout Cart</h3>
+        <section class="checkout">
+          <table>
+            <tr>
+              <th class="blank-width"></th>
+              <th class="item-width">ITEM</th>
+              <th class="item-price-width">ITEM PRICE</th>
+              <th class="quantity-width">QUANTITY</th>
+              <th class="total-price-width">TOTAL PRICE</th>
+            </tr>
+            <tr>
+              <td><img src="img/puffer.jpg" alt="puffer"></td>
+              <td><h4>OVERSIZED DOWN PUFFER JACKET</h4><br>
+                  <h4>SIZE</h4><p>MEDIUM</p>
+              </td>
+              <td>$150.00</td>
+              <td>1</td>
+              <td>$150.00</td>
+            </tr>
+          </table>
+        </section>
+      </section>
+    </section>
+    <!-- // COMBINED ELEMENTS SECTION -->
+
+    <section id="WEB-PAGES">
+      <h2>WEB PAGES</h2>
+      <section class="element">
+      <h3><a href="product-page.html">PRODUCT LIST</a></h3>
+      </section>
+      <section class="element">
+      <h3><a href="checkout-page.html">CHECKOUT</a></h3>
+      </section>
+
+
+    <section id="brandideas">
+      <h2>Basic Brand Ideas</h2>
+      <section class="element">
+        <h5>What does the company do, or offer?</h5>
+        <p>The company, Muted, is a fashion company with the focus of providing quality basics for both men and women with a variety of muted colours. Our goal is to provide the opportunity take part and invest in the minimalist lifestyle.</p>
+        <h5>Who is the company to potential customers? (as a person)</h5>
+        <p>Muted is the shop for people to find staple basics for their closet that will last a lifetime.</p>
+        <h5>Why might this company entice someone to purchase a product or service?</h5>
+        <p>A minimalist would be attracted to Muted because of the type of product it offers. Long-lasting basics in muted colours to support the aesthetic and lifestyle of a minimalst.</p>
+        <h5>Persona</h5>
+        <p>Andrew, 24, is a recent graduate of design school and has just moved to LA to start a new life working at a design agency. Since he is starting completely fresh in this new city, he decides to adopt a new lifestyle, the simple lifestyle of a minimalist. His goals are to adopt the minimalist lifestyle, and find clothing that will last long and offered in simple colours. His frusturations include having too many options and cheap material at popular clothing retailers.</p>
+      </section>
+    </section>
+
+    <section id="brandcomponents">
+      <h2>Brand Components</h2>
+      <h3>Fonts</h3>
+      <p>Poppins</p>
+      <h3>Colour Palette</h3>
+      <img src="img/palette.jpg" alt="palette">
+      <a href="https://pin.it/vr7zn5ns4nytyp"><h3>Moodboard</h3></a>
+
+    </section>
+
+    <section id="citations">
+      <h2>Citations</h2>
+
+      <ul>
+        <li>Indian Type Foundry. Designer. 2014. <strong>Poppins [Font]</strong>. Retrieved from <a href="https://fonts.google.com/specimen/Poppins">https://fonts.google.com/specimen/Poppins</a></li>
+        <li>H&M <strong>Fleece Jacket with High Collar [Image]</strong>. Retrieved from <a href="https://www2.hm.com/en_ca/productpage.0837743001.html">https://www2.hm.com/en_ca/productpage.0837743001.html</a>.</li>
+        <li>H&M <strong>Short Coat [Image]</strong>. Retrieved from <a href="https://www2.hm.com/en_ca/productpage.0699623004.html">https://www2.hm.com/en_ca/productpage.0699623004.html</a>.</li>
+        <li>H&M <strong>Wool-blend Shirt Jacket [Image]</strong>. Retrieved from <a href="https://www2.hm.com/en_ca/productpage.0839494001.html">https://www2.hm.com/en_ca/productpage.0839494001.html</a>.</li>
+        <li>H&M <strong>Short Wool-blend Coat [Image]</strong>. Retrieved from <a href="https://www2.hm.com/en_ca/productpage.0853928001.html">https://www2.hm.com/en_ca/productpage.0853928001.html</a>.</li>
+        <li>H&M <strong>Boxy Puffer Jacket [Image]</strong>. Retrieved from <a href="https://www2.hm.com/en_ca/productpage.0721268004.html">https://www2.hm.com/en_ca/productpage.0721268004.html</a>.</li>
+        <li>H&M <strong>Denim Jacket [Image]</strong>. Retrieved from <a href="https://www2.hm.com/en_ca/productpage.0829643003.html">https://www2.hm.com/en_ca/productpage.0829643003.html</a>.</li>
+        <li>Icons8 <strong>Shopping Bag [Icon]</strong>. Retrieved from <a href="https://icons8.com/icon/85380/shopping-bag">https://www2.hm.com/en_ca/productpage.0829643003.html</a>.</li>
+
+      </ul>
+
+    </section>
+  </section>
+
+  </body>
+</html>
