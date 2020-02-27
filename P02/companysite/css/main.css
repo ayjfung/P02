@@ -460,7 +460,7 @@ footer a{
   width: 200px;
 }
 
-.payment-button a{
+.button-block a{
   text-decoration: none;
   color: white;
 }
@@ -471,4 +471,14 @@ footer a{
 
 .payment-button:focus{
   outline: 0;
+}
+
+.thankyou-content{
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.thankyou-content a{
+  text-decoration: none;
+  color: white;
 }
