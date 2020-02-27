@@ -4,7 +4,8 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  padding: 2rem;
+  margin: 0;
+  padding: 0;
 }
 
 header nav a{
@@ -134,6 +135,8 @@ header nav a:hover{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .header-class ul{
@@ -142,6 +145,16 @@ header nav a:hover{
 
 .header-class li{
   display: inline-block;
+}
+
+.product-list{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.product-list h6{
+  margin: 0;
+  padding-top: 1rem;
 }
 
 .product-list p{
@@ -182,6 +195,7 @@ header nav a:hover{
 }
 
 .product-listing{
+  padding-top: 1rem;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -232,6 +246,11 @@ header nav a:hover{
 
 .cart-button:focus{
   outline: 0;
+}
+
+.cart-button a{
+  color: white;
+  text-decoration: none;
 }
 
 table{
@@ -285,6 +304,7 @@ td{
 
 .checkout {
   padding-bottom: 3rem;
+  margin: 1rem;
 }
 
 .button-block{
@@ -347,6 +367,8 @@ hr{
 
 .divider{
   margin-top: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
 }
 
 .form-class .container{
@@ -358,4 +380,105 @@ hr{
 .form-class .container .block{
   width: 50%;
   padding: 2%;
+}
+
+.home-class img{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+.img-container a{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  background-color: #1a1713;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+.img-container{
+  position: relative;
+  text-align: center;
+}
+
+.home-flex-container{
+  display: flex;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  padding-top: 3rem;
+  text-align: center;
+}
+
+footer a{
+  font-size: 0.8rem;
+  color: black;
+  text-decoration: none;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.about-us{
+  margin: 1rem;
+}
+
+.about-us h2{
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.about-us p{
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: justify;
+}
+
+.review-class{
+  margin: 1rem;
+  padding-top: 3rem;
+}
+
+.review-class h3{
+  text-align: center;
+}
+
+.payment-button{
+  margin-top: 1rem;
+  margin-left: auto;
+  margin-right: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #3e3e3e;
+  border: none;
+
+  padding: 10px 20px;
+  width: 200px;
+}
+
+.button-block a{
+  text-decoration: none;
+  color: white;
+}
+
+.payment-button:hover{
+  background-color: #1a1713;
+}
+
+.payment-button:focus{
+  outline: 0;
+}
+
+.thankyou-content{
+  padding-top: 5rem;
+  text-align: center;
+}
+
+.thankyou-content a{
+  text-decoration: none;
+  color: white;
 }
