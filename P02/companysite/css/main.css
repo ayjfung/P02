@@ -195,6 +195,7 @@ header nav a:hover{
 }
 
 .product-listing{
+  padding-top: 1rem;
   padding-left: 10%;
   padding-right: 10%;
 }
@@ -245,6 +246,11 @@ header nav a:hover{
 
 .cart-button:focus{
   outline: 0;
+}
+
+.cart-button a{
+  color: white;
+  text-decoration: none;
 }
 
 table{

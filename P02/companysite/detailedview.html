@@ -7,15 +7,22 @@
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
   </head>
   <body>
-    <header>
+    <section class="header-class">
+      <h3 class="logo"><a href="index.html">MUTED</a></h3>
       <nav>
-        <a class="nav-link" href="index.html">HOME</a>
-        <a class="nav-link" href="multiproductListingWomens.html">WOMENS</a>
-        <a class="nav-link" href="#men">MENS</a>
-        <a class="nav-link" href="#sale">SALE</a>
-        <a class="nav-link" href="aboutAndContact.html">ABOUT MUTED</a>
+        <ul>
+          <li><a class="nav-link" href="multiproductListingWomens.html">WOMEN</a></li>
+          <li><a class="nav-link" href="#men">MEN</a></li>
+          <li><a class="nav-link" href="#sale">SALE</a></li>
+        </ul>
       </nav>
-      </header>
+      <div class="checkout-box">
+        <a href="checkoutcart.html"><img src="img/bag-icon.png" alt="bag"></a>
+      </div>
+    </section>
+
+    <hr class="divider">
+
       <section class="product-listing">
         <div class="row">
           <div class="column">
@@ -37,8 +44,7 @@
               <input type="radio" id="radioL1" name="radioSize" value="large">
               <label for="radioL1">L</label>
             </form>
-            <button class="cart-button" type="button" name="add-to-cart">ADD TO CART</button>
-            <a href="checkoutcart.html">ADD TO CART</a>
+            <button class="cart-button" type="button" name="add-to-cart"><a href="checkoutcart.html">ADD TO CART</a></button>
             <hr>
             <h4>DESCRIPTION</h4>
             <p>Padded, boxy jacket in woven fabric. Stand-up collar, zip at front, and side pockets. Elasticized drawstring at hem. Lined.</p>
