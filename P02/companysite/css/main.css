@@ -147,6 +147,16 @@ header nav a:hover{
   display: inline-block;
 }
 
+.product-list{
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.product-list h6{
+  margin: 0;
+  padding-top: 1rem;
+}
+
 .product-list p{
   text-align: center;
   font-size: 0.8rem;
