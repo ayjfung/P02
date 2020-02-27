@@ -422,3 +422,19 @@ footer a{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
 }
+
+.about-us{
+  margin: 1rem;
+}
+
+.about-us h2{
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.about-us p{
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: justify;
+
+}
