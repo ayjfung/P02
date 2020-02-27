@@ -406,3 +406,19 @@ hr{
 .home-flex-container{
   display: flex;
 }
+
+footer{
+  display: flex;
+  justify-content: center;
+  margin: 2rem;
+  padding-top: 3rem;
+  text-align: center;
+}
+
+footer a{
+  font-size: 0.8rem;
+  color: black;
+  text-decoration: none;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
