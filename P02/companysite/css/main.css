@@ -436,5 +436,13 @@ footer a{
   padding-left: 20%;
   padding-right: 20%;
   text-align: justify;
+}
 
+.review-class{
+  margin: 1rem;
+  padding-top: 3rem;
+}
+
+.review-class h3{
+  text-align: center;
 }
