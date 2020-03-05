@@ -2,6 +2,11 @@
   box-sizing: border-box;
 }
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
 body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
@@ -135,8 +140,7 @@ header nav a:hover{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin: 1rem;
 }
 
 .header-class ul{
@@ -183,11 +187,13 @@ header nav a:hover{
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .product-list .container .block{
   width: 15rem;
   padding: 2%;
+  flex: 1 0 calc(33.33% - 20px);
 }
 
 .product-list img:hover{
@@ -385,11 +391,11 @@ hr{
 .home-class img{
   margin: 0;
   padding: 0;
-  width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
-.img-container a{
+.home-class a{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -400,7 +406,7 @@ hr{
   text-decoration: none;
 }
 
-.img-container .text{
+.img-container-events .text{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -415,13 +421,37 @@ hr{
   margin: 0;
 }
 
-.img-container{
+.img-container-womens{
   position: relative;
   text-align: center;
+  overflow: hidden;
+  background: url(../img/shop-womens.jpg) no-repeat center;
+  width: 100%;
+  height: 600px;
+  background-size: cover;
+}
+
+.img-container-mens{
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  background: url(../img/shop-mens.jpg) no-repeat center;
+  width: 100%;
+  height: 600px;
+  background-size: cover;
 }
 
 .home-flex-container{
   display: flex;
+}
+
+.img-container-events{
+  position: relative;
+  text-align: center;
+}
+
+.img-container-events img{
+  display: block;
 }
 
 footer{
@@ -501,7 +531,8 @@ footer a{
 }
 
 .events-class{
-  margin-top: 5rem;
+  margin: 0;
+  padding: 0;
 }
 
 .events-class img{
@@ -511,8 +542,27 @@ footer a{
   height: auto;
 }
 
-.events-class h3{
+.events-banner-class h3{
   text-align: center;
+}
+
+.events-banner-class{
+  position: relative;
+  background-color: #EEE1C6;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  display:
+}
+
+.events-banner-class h3{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  padding: 0.5rem;
+  text-decoration: none;
 }
 
 .citations {
