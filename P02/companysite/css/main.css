@@ -399,6 +399,22 @@ hr{
   padding: 0.5rem;
   text-decoration: none;
 }
+
+.img-container .text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: white;
+  padding: 0.5rem;
+  text-decoration: none;
+}
+
+.img-container h3{
+  padding: 0;
+  margin: 0;
+}
+
 .img-container{
   position: relative;
   text-align: center;
@@ -409,6 +425,7 @@ hr{
 }
 
 footer{
+  clear: right;
   display: flex;
   justify-content: center;
   margin: 2rem;
@@ -481,4 +498,31 @@ footer a{
 .thankyou-content a{
   text-decoration: none;
   color: white;
+}
+
+.events-class{
+  margin-top: 5rem;
+}
+
+.events-class img{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: auto;
+}
+
+.events-class h3{
+  text-align: center;
+}
+
+.citations {
+  margin: 1rem;
+}
+
+.old-sale-price{
+  text-decoration: line-through;
+}
+
+.new-sale-price{
+  color: red;
 }
