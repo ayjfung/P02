@@ -187,11 +187,13 @@ header nav a:hover{
   flex-wrap: wrap;
   justify-content: flex-start;
   align-items: center;
+  flex-flow: row wrap;
 }
 
 .product-list .container .block{
   width: 15rem;
   padding: 2%;
+  flex: 1 0 calc(33.33% - 20px);
 }
 
 .product-list img:hover{
