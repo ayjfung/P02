@@ -518,3 +518,11 @@ footer a{
 .citations {
   margin: 1rem;
 }
+
+.old-sale-price{
+  text-decoration: line-through;
+}
+
+.new-sale-price{
+  color: red;
+}
