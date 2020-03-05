@@ -425,6 +425,7 @@ hr{
 }
 
 footer{
+  clear: right;
   display: flex;
   justify-content: center;
   margin: 2rem;
@@ -512,4 +513,16 @@ footer a{
 
 .events-class h3{
   text-align: center;
+}
+
+.citations {
+  margin: 1rem;
+}
+
+.old-sale-price{
+  text-decoration: line-through;
+}
+
+.new-sale-price{
+  color: red;
 }
