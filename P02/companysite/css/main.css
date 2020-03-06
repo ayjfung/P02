@@ -152,8 +152,13 @@ header nav a:hover{
 }
 
 .product-list{
+  margin: 0;
+  padding: 0;
+}
+
+.product-list h6{
   padding-left: 1rem;
-  padding-right: 1rem;
+  padding-bottom: 1rem;
 }
 
 .product-list h6{
@@ -167,7 +172,7 @@ header nav a:hover{
 }
 
 .product-list img{
-  padding-bottom: 1rem;
+  padding-bottom: 0.5rem;
   width: 100%;
   height: auto;
 }
@@ -183,16 +188,18 @@ header nav a:hover{
 }
 
 .product-list .container{
+  margin: 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-start;
   flex-flow: row wrap;
 }
 
 .product-list .container .block{
   width: 15rem;
-  padding: 2%;
+  padding: 0.5%;
+  padding-bottom: 2rem;
   flex: 1 0 calc(33.33% - 20px);
 }
 
@@ -261,7 +268,8 @@ header nav a:hover{
 
 table{
   border-collapse: collapse;
-  width: 100%
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .item th, .item td{
@@ -287,11 +295,11 @@ td{
 }
 
 .checkout .blank-width{
-  width: 10%;
+  width: 12rem;
 }
 
 .checkout .item-width{
-  width: 60%
+  width: auto;
 }
 .checkout .item-price-width{
   width: 10%
@@ -318,24 +326,13 @@ td{
   padding-bottom: 3rem;
 }
 
-ol {
-  margin: 0;
-  padding: 0;
-}
-ol li {
-  counter-increment: my-awesome-counter;
-  display: flex;
-  font-size: 0.85rem;
-  margin-bottom: 1rem;
-}
-ol li::before {
-  content: "0" counter(my-awesome-counter);
-  font-weight: bold;
-  font-size: 1.2rem;
-  margin-right: 0.5rem;
-  line-height: 1rem;
+ul{
+  margin-left: 1rem;
 }
 
+li{
+  font-size: 0.8rem;
+}
 
 h1{
   text-transform: uppercase;
@@ -533,6 +530,7 @@ footer a{
 .events-class{
   margin: 0;
   padding: 0;
+  background-color: black;
 }
 
 .events-class img{
@@ -540,6 +538,7 @@ footer a{
   padding: 0;
   width: 100%;
   height: auto;
+  opacity: 0.7;
 }
 
 .events-banner-class h3{
@@ -548,11 +547,10 @@ footer a{
 
 .events-banner-class{
   position: relative;
-  background-color: #EEE1C6;
+  background-color: #D2B48C;
   margin: 0;
   padding: 0;
-  height: 200px;
-  display:
+  height: 300px;
 }
 
 .events-banner-class h3{
@@ -563,6 +561,7 @@ footer a{
   color: white;
   padding: 0.5rem;
   text-decoration: none;
+  font-size: 1.5rem;
 }
 
 .citations {
