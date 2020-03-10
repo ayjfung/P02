@@ -403,7 +403,7 @@ hr{
   text-decoration: none;
 }
 
-.img-container-events .text{
+.text{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -449,6 +449,36 @@ hr{
 
 .img-container-events img{
   display: block;
+}
+
+.monday {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  background: url(../img/monday.jpg) no-repeat center;
+  width: auto;
+  height: 200px;
+  background-size: cover;
+}
+
+.thursday {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  background: url(../img/thursday.jpg) no-repeat center;
+  width: auto;
+  height: 200px;
+  background-size: cover;
+}
+
+.friday {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  background: url(../img/friday.jpg) no-repeat center;
+  width: auto;
+  height: 200px;
+  background-size: cover;
 }
 
 footer{
@@ -574,4 +604,13 @@ footer a{
 
 .new-sale-price{
   color: red;
+}
+
+
+@media screen and (max-width: 641px) {
+  .home-flex-container{
+    flex-direction: column;
+  }
+
+
 }
