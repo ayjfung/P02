@@ -294,20 +294,20 @@ td{
   height: auto;
 }
 
-.checkout .blank-width{
+.checkout td:nth-child(1){
   width: 12rem;
 }
 
-.checkout .item-width{
+.checkout td:nth-child(2){
   width: auto;
 }
-.checkout .item-price-width{
+.checkout td:nth-child(3){
   width: 10%
 }
-.checkout .quantity-width{
+.checkout td:nth-child(4){
   width: 10%
 }
-.checkout .total-price-width{
+.checkout td:nth-child(5){
   width: 10%
 }
 
@@ -612,5 +612,71 @@ footer a{
     flex-direction: column;
   }
 
+  footer{
+    clear: none;
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
 
+  .product-list .container .block{
+
+    padding: 0.5%;
+    padding-bottom: 2rem;
+    flex: 1 0 calc(50%);
+  }
+
+  .product-listing .row{
+    display: block;
+  }
+
+  .product-listing{
+    padding-top: 1rem;
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  .form-button{
+    height: 70px;
+    width: 100%;
+  }
+
+  .button-block{
+    margin: 1rem;
+    float:none;
+    padding-bottom: 3rem;
+  }
+
+  .payment-button{
+    height: 70px;
+    width: 100%;
+  }
+
+  .thankyou-content .form-button{
+    height: auto;
+    width: 200px;
+  }
+
+  .about-us p{
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-align: justify;
+  }
+
+  .checkout td:nth-child(1){
+    width: 33%;
+  }
+
+  .checkout td:nth-child(2){
+    width: 46%;
+  }
+  .checkout td:nth-child(3){
+    width: 0%
+  }
+  .checkout td:nth-child(4){
+    width: 10%
+  }
+  .checkout td:nth-child(5){
+    width: 10%
+  }
 }
