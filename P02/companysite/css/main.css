@@ -612,5 +612,19 @@ footer a{
     flex-direction: column;
   }
 
+  footer{
+    clear: none;
+    display: block;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .product-list .container .block{
+
+    padding: 0.5%;
+    padding-bottom: 2rem;
+    flex: 1 0 calc(50%);
+  }
+
 
 }
