@@ -294,20 +294,20 @@ td{
   height: auto;
 }
 
-.checkout .blank-width{
+.checkout td:nth-child(1){
   width: 12rem;
 }
 
-.checkout .item-width{
+.checkout td:nth-child(2){
   width: auto;
 }
-.checkout .item-price-width{
+.checkout td:nth-child(3){
   width: 10%
 }
-.checkout .quantity-width{
+.checkout td:nth-child(4){
   width: 10%
 }
-.checkout .total-price-width{
+.checkout td:nth-child(5){
   width: 10%
 }
 
@@ -661,5 +661,22 @@ footer a{
     padding-left: 1rem;
     padding-right: 1rem;
     text-align: justify;
+  }
+
+  .checkout td:nth-child(1){
+    width: 33%;
+  }
+
+  .checkout td:nth-child(2){
+    width: 46%;
+  }
+  .checkout td:nth-child(3){
+    width: 0%
+  }
+  .checkout td:nth-child(4){
+    width: 10%
+  }
+  .checkout td:nth-child(5){
+    width: 10%
   }
 }
